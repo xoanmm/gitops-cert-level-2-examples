@@ -30,4 +30,10 @@ spec:
       jsonPointers:
       - /spec/replicas
       - /metadata/annotations/creation
+    - group: ""
+      kind: Secret
+      name: example-secret
+      namespace: example02
+      jsonPointers:
+      - /data/my-password
 

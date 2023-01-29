@@ -25,6 +25,8 @@ spec:
   ignoreDifferences:
     - group: apps
       kind: Deployment
+      name: simple-deployment
+      namespace: example02
       jsonPointers:
       - /spec/replicas
 
